@@ -46,8 +46,6 @@ set -o nounset
 # Release pipelines require DEV_DATAFACTORY_NAME set, retrieve this value from .env.dev file
 export DEV_$(egrep '^DATAFACTORY_NAME' .env.dev | tail -1 | xargs)
 
-# Replace 'devlace/mdw-dataops-clone' to deployer's github project
-# sed -i "s+devlace/mdw-dataops-clone+$GITHUB_REPO+" devops/azure-pipelines-cd-release.yml
 
 # Deploy pipelines
 ./scripts/deploy_azdo_pipelines.sh
