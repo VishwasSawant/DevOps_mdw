@@ -38,7 +38,7 @@ set -o nounset
 # AZDO_PIPELINES_BRANCH_NAME
 # DEV_DATAFACTORY_NAME
 
-GITHUB_REPO_URL=https://github.com/jethanivijay/mlproject.git
+GITHUB_REPO_URL=https://github.com/jethanivijay/mdw.git
 DEV_DATAFACTORY_NAME=mdwdoadfdevmlres
 AZDO_PIPELINES_BRANCH_NAME=master
 
