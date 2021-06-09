@@ -214,7 +214,7 @@ More resources:
 
 1. Rename `.envtemplate` to `devcontainer.env` and update the values as explained in **Initial Setup** section.
 2. Open the project inside the vscode dev container (see details [here](docs/devcontainer.md))
-3. `cd` into the `e2e_samples/parking_sensors` folder and run `./deploy.sh` inside the dev container terminal.
+3. `cd` into the `e2e_samples/parking_sensors` folder and run `./master.sh` inside the dev container terminal.
 
 ### Setup and Deployment
 
