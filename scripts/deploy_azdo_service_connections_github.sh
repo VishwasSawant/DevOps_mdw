@@ -35,7 +35,7 @@ set -o nounset
 # REQUIRED ENV VARIABLES:
 #
 # GITHUB_PAT_TOKEN
-GITHUB_REPO_URL=https://github.com/jethanivijay/mlproject.git
+GITHUB_REPO_URL=https://github.com/jethanivijay/mdw.git
 
 ###############
 # Setup Github service connection
