@@ -274,12 +274,12 @@ More resources:
    2. In Azure DevOps, notice a new run of the Build Pipeline (**mdw-park-ci-artifacts**) off `master`. This will build the Python package and SQL DACPAC, then publish these as Pipeline Artifacts.
    3. After completion, this should automatically trigger the Release Pipeline (**mdw-park-cd-release**). This will deploy the artifacts across environments.
       - You may need to authorize the Pipelines initially to use the Service Connection for the first time.
-      ![Release Pipeline](../../docs/images/ReleasePipeline.PNG?raw=true "Release Pipelines")
+      ![Release Pipeline](images/ReleasePipeline.PNG?raw=true "Release Pipelines")
    4. **Optional**. Trigger the Data Factory Pipelines per environment.
       1. In the Data Factory portal of each environment, navigate to "Author", then select the `P_Ingest_MelbParkingData`.
       2. Select "Trigger > Trigger Now".
       3. To monitor the run, go to "Monitor > Pipeline runs".
-      ![Data Factory Run](../../docs/images/ADFRun.PNG?raw=true "Data Factory Run]")
+      ![Data Factory Run](images/ADFRun.PNG?raw=true "Data Factory Run]")
       - Currently, the data pipeline is configured to use "on-demand" databricks clusters so it takes a few minutes to spin up. That said, it is not uncommon to change these to point to "existing" running clusters in Development for faster data pipeline runs.
 
 Congratulations!! 🥳 You have successfully deployed the solution and accompanying Build and Release Pipelines. For next steps, we recommend watching [this presentation](https://www.youtube.com/watch?v=Xs1-OU5cmsw) for a detailed walk-through of the running solution. If you've encountered any issues, please file a Github issue with the relevant error message and replication steps.
