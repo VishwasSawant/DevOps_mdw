@@ -2,13 +2,13 @@
 
 # check required variables are specified.
 
-export GITHUB_REPO="jethanivijay/mlproject"
+export GITHUB_REPO="jethanivijay/mdw"
 export RESOURCE_GROUP_LOCATION="eastus"
 export RESOURCE_GROUP_NAME_PREFIX="vijaymlrg"
-export AZDO_PIPELINES_BRANCH_NAME="mastercopy"
+export AZDO_PIPELINES_BRANCH_NAME="master"
 export DEPLOYMENT_ID="mlres"
-#AZURESQL_SERVER_PASSWORD="dbadmin123@mlproject"
 read -s -p "GITHUB_PAT_TOKEN: " GITHUB_PAT_TOKEN
+echo
 read -s -p "AZURESQL_SERVER_PASSWORD: " AZURESQL_SERVER_PASSWORD
 export AZURESQL_SERVER_PASSWORD
 
