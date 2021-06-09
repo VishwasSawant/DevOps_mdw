@@ -1,7 +1,7 @@
 {
 	"name": "P_Ingest_MelbParkingData",
 	"properties": {
-		"description": "First run in Dev",
+		"description": "I am running Mlproject for first ",
 		"activities": [
 			{
 				"name": "StandardizeData",
